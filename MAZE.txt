@@ -1,0 +1,14 @@
+ClrDraw
+Disp "PX?
+Input S
+S-1→S
+For(Y,Ymin,Ymax,∆Y+S
+For(X,Xmin,Xmax,S+∆X
+If rand2>1
+Then
+Line(X,Y,X+S,Y+S
+Else
+Line(X,Y+S,X+S,Y
+End
+End
+End
