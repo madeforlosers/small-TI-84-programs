@@ -1,0 +1,25 @@
+Plot1(xyLine,L₂,L₁
+PlotsOn 1
+For(R,2,100
+R→X
+0→L
+0→Ymax
+R→L₁(1
+While X≠1
+L+1→L
+X/2
+If remainder(X,2
+X3+1
+Ans→X
+L+2→Xmax
+If Ymax<X
+X+2→Ymax
+X→L₁(L
+L→L₂(L
+End
+L→dim(L₁
+L→dim(L₂
+Text(5,5,R
+DispGraph
+End
+PlotsOff 1
